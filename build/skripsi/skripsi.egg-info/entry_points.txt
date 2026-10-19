@@ -1,0 +1,5 @@
+[console_scripts]
+head_tilt_controller = skripsi.tilit_control:main
+head_tilt_reader = skripsi.readenco:main
+kalibrasi_jarak = skripsi.mainpolinom:main
+servo_tilt = skripsi.servo_tilt:main

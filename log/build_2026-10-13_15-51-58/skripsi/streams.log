@@ -1,0 +1,28 @@
+[2.667s] Invoking command in '/home/aroc2/firosskripsi/src/skripsi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc2/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skripsi build --build-base /home/aroc2/firosskripsi/build/skripsi/build install --record /home/aroc2/firosskripsi/build/skripsi/install.log --install-scripts $base/lib/skripsi --single-version-externally-managed install_data
+[3.489s] running egg_info
+[3.551s] writing ../../build/skripsi/skripsi.egg-info/PKG-INFO
+[3.552s] writing dependency_links to ../../build/skripsi/skripsi.egg-info/dependency_links.txt
+[3.553s] writing entry points to ../../build/skripsi/skripsi.egg-info/entry_points.txt
+[3.553s] writing requirements to ../../build/skripsi/skripsi.egg-info/requires.txt
+[3.553s] writing top-level names to ../../build/skripsi/skripsi.egg-info/top_level.txt
+[3.699s] reading manifest file '../../build/skripsi/skripsi.egg-info/SOURCES.txt'
+[3.702s] adding license file 'LICENSE'
+[3.703s] writing manifest file '../../build/skripsi/skripsi.egg-info/SOURCES.txt'
+[3.704s] running build
+[3.704s] running build_py
+[3.705s] copying skripsi/mainpolinom.py -> /home/aroc2/firosskripsi/build/skripsi/build/lib/skripsi
+[3.708s] running install
+[3.727s] running install_lib
+[3.804s] copying /home/aroc2/firosskripsi/build/skripsi/build/lib/skripsi/mainpolinom.py -> /home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi
+[3.806s] byte-compiling /home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi/mainpolinom.py to mainpolinom.cpython-312.pyc
+[3.807s] running install_data
+[3.807s] running install_egg_info
+[3.876s] removing '/home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi-0.0.0-py3.12.egg-info' (and everything under it)
+[3.877s] Copying ../../build/skripsi/skripsi.egg-info to /home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi-0.0.0-py3.12.egg-info
+[3.879s] running install_scripts
+[4.026s] Installing head_tilt_controller script to /home/aroc2/firosskripsi/install/skripsi/lib/skripsi
+[4.026s] Installing head_tilt_reader script to /home/aroc2/firosskripsi/install/skripsi/lib/skripsi
+[4.028s] Installing kalibrasi_jarak script to /home/aroc2/firosskripsi/install/skripsi/lib/skripsi
+[4.030s] Installing servo_tilt script to /home/aroc2/firosskripsi/install/skripsi/lib/skripsi
+[4.032s] writing list of installed files to '/home/aroc2/firosskripsi/build/skripsi/install.log'
+[4.095s] Invoked command in '/home/aroc2/firosskripsi/src/skripsi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc2/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc2/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skripsi build --build-base /home/aroc2/firosskripsi/build/skripsi/build install --record /home/aroc2/firosskripsi/build/skripsi/install.log --install-scripts $base/lib/skripsi --single-version-externally-managed install_data

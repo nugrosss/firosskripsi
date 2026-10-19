@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (skripsi) JobQueued: {'identifier': 'skripsi', 'dependencies': OrderedDict()}
+[0.000433] (skripsi) JobStarted: {'identifier': 'skripsi'}
+[0.098398] (-) TimerEvent: {}
+[0.198725] (-) TimerEvent: {}
+[0.299027] (-) TimerEvent: {}
+[0.399378] (-) TimerEvent: {}
+[0.439636] (skripsi) JobEnded: {'identifier': 'skripsi', 'rc': 0}
+[0.441147] (-) EventReactorShutdown: {}
