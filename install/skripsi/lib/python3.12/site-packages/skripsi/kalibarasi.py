@@ -18,7 +18,7 @@ jarak_deteksi = np.array([
     50,    # 55 cm
     55,    # 60 cm
     60,    # 65 cm
-    64,    # 70 cm
+    63,    # 70 cm
     68,    # 75 cm
     72,    # 80 cm
     77,    # 85 cm

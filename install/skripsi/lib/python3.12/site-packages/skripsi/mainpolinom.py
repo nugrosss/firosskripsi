@@ -14,6 +14,11 @@ class KalibrasiJarak(Node):
             self.hasil_servo_callback,
             10
         )
+        self.publisher = self.create_publisher(
+            Float32,
+            '/vision/hasil_kalibrasi',
+            10
+        )
         self.get_logger().info('KalibrasiJarak node siap ??')
 
     def koreksi_jarak(self, jarak_deteksi):
@@ -27,19 +32,25 @@ class KalibrasiJarak(Node):
         jarak_deteksi = msg.data
 
         # Masukkan hasil servo ke fungsi koreksi
-        jarak_koreksi = self.koreksi_jarak(jarak_deteksi)
+        jarak_koreksi = self.koreksi_jarak(jarak_deteksi) 
         # self.get_logger().info(
         #         f'Deteksi: {jarak_deteksi:.2f} cm | ')
-        if jarak_koreksi < 15: 
-            jarak_koreksi += 1
-        elif jarak_koreksi > 15:
+        if jarak_koreksi < 14:
+            jarak_koreksi -= 2
+        elif jarak_koreksi < 20:
             jarak_koreksi -= 1
+        elif jarak_koreksi > 50:
+            jarak_koreksi -= 1
+        elif jarak_koreksi > 20:
+            jarak_koreksi += 1
 
-        self.get_logger().info(
-            # f'Deteksi: {jarak_deteksi:.2f} cm | '
-            f'jarak: {jarak_koreksi:.2f} cm'
-        )
-
+        # self.get_logger().info(
+        #     # f'Deteksi: {jarak_deteksi:.2f} cm | '
+        #     f'jarak: {jarak_koreksi:.2f} cm'
+        # )
+        print(f"Jarak: {jarak_koreksi:.2f} cm")
+        # Publish the corrected distance
+        self.publisher.publish(Float32(data=jarak_koreksi))
 
 def main(args=None):
     rclpy.init(args=args)
