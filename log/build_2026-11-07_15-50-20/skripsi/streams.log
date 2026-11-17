@@ -1,0 +1,20 @@
+[1.337s] Invoking command in '/home/firos/firosskripsi/build/skripsi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firos/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/firos/firosskripsi/build/skripsi/build --no-deps symlink_data
+[1.671s] running develop
+[1.836s] running egg_info
+[1.854s] writing skripsi.egg-info/PKG-INFO
+[1.854s] writing dependency_links to skripsi.egg-info/dependency_links.txt
+[1.854s] writing entry points to skripsi.egg-info/entry_points.txt
+[1.854s] writing requirements to skripsi.egg-info/requires.txt
+[1.854s] writing top-level names to skripsi.egg-info/top_level.txt
+[1.888s] reading manifest file 'skripsi.egg-info/SOURCES.txt'
+[1.889s] writing manifest file 'skripsi.egg-info/SOURCES.txt'
+[1.907s] running build_ext
+[1.907s] Creating /home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi.egg-link (link to .)
+[1.908s] Installing head_tilt_controller script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[1.908s] Installing head_tilt_reader script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[1.908s] Installing kalibrasi_jarak script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[1.908s] Installing servo_tilt script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[1.908s] 
+[1.909s] Installed /home/firos/firosskripsi/build/skripsi
+[1.909s] running symlink_data
+[1.983s] Invoked command in '/home/firos/firosskripsi/build/skripsi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firos/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/firos/firosskripsi/build/skripsi/build --no-deps symlink_data

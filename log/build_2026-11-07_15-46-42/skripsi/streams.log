@@ -1,0 +1,27 @@
+[1.522s] Invoking command in '/home/firos/firosskripsi/build/skripsi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firos/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/firos/firosskripsi/build/skripsi/build --no-deps symlink_data
+[1.857s] running develop
+[2.019s] running egg_info
+[2.019s] creating skripsi.egg-info
+[2.036s] writing skripsi.egg-info/PKG-INFO
+[2.036s] writing dependency_links to skripsi.egg-info/dependency_links.txt
+[2.036s] writing entry points to skripsi.egg-info/entry_points.txt
+[2.037s] writing requirements to skripsi.egg-info/requires.txt
+[2.037s] writing top-level names to skripsi.egg-info/top_level.txt
+[2.037s] writing manifest file 'skripsi.egg-info/SOURCES.txt'
+[2.072s] reading manifest file 'skripsi.egg-info/SOURCES.txt'
+[2.073s] writing manifest file 'skripsi.egg-info/SOURCES.txt'
+[2.090s] running build_ext
+[2.090s] Creating /home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi.egg-link (link to .)
+[2.092s] Installing head_tilt_controller script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[2.092s] Installing head_tilt_reader script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[2.092s] Installing kalibrasi_jarak script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[2.092s] Installing servo_tilt script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+[2.092s] 
+[2.092s] Installed /home/firos/firosskripsi/build/skripsi
+[2.092s] running symlink_data
+[2.092s] creating /home/firos/firosskripsi/install/skripsi/share/ament_index
+[2.092s] creating /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index
+[2.093s] creating /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index/packages
+[2.093s] symbolically linking /home/firos/firosskripsi/build/skripsi/resource/skripsi -> /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index/packages
+[2.093s] symbolically linking /home/firos/firosskripsi/build/skripsi/package.xml -> /home/firos/firosskripsi/install/skripsi/share/skripsi
+[2.161s] Invoked command in '/home/firos/firosskripsi/build/skripsi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/firos/firosskripsi/build/skripsi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/firos/firosskripsi/build/skripsi/build --no-deps symlink_data

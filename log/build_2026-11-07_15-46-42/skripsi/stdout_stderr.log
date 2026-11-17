@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating skripsi.egg-info
+writing skripsi.egg-info/PKG-INFO
+writing dependency_links to skripsi.egg-info/dependency_links.txt
+writing entry points to skripsi.egg-info/entry_points.txt
+writing requirements to skripsi.egg-info/requires.txt
+writing top-level names to skripsi.egg-info/top_level.txt
+writing manifest file 'skripsi.egg-info/SOURCES.txt'
+reading manifest file 'skripsi.egg-info/SOURCES.txt'
+writing manifest file 'skripsi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/firos/firosskripsi/install/skripsi/lib/python3.12/site-packages/skripsi.egg-link (link to .)
+Installing head_tilt_controller script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+Installing head_tilt_reader script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+Installing kalibrasi_jarak script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+Installing servo_tilt script to /home/firos/firosskripsi/install/skripsi/lib/skripsi
+
+Installed /home/firos/firosskripsi/build/skripsi
+running symlink_data
+creating /home/firos/firosskripsi/install/skripsi/share/ament_index
+creating /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index
+creating /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index/packages
+symbolically linking /home/firos/firosskripsi/build/skripsi/resource/skripsi -> /home/firos/firosskripsi/install/skripsi/share/ament_index/resource_index/packages
+symbolically linking /home/firos/firosskripsi/build/skripsi/package.xml -> /home/firos/firosskripsi/install/skripsi/share/skripsi

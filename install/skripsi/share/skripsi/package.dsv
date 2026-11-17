@@ -1,6 +1,6 @@
-source;share/skripsi/hook/pythonpath.ps1
 source;share/skripsi/hook/pythonpath.dsv
 source;share/skripsi/hook/pythonpath.sh
-source;share/skripsi/hook/ament_prefix_path.ps1
 source;share/skripsi/hook/ament_prefix_path.dsv
 source;share/skripsi/hook/ament_prefix_path.sh
+source;../../build/skripsi/share/skripsi/hook/pythonpath_develop.dsv
+source;../../build/skripsi/share/skripsi/hook/pythonpath_develop.sh
